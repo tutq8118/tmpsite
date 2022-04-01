@@ -20,7 +20,7 @@
   <script>
     const urlThumbnail = 'https://arp2018.blob.core.windows.net/screenshot/c30c7984-2fcf-4bd6-8db0-4a96a4492d8a.jpeg';
     const createMetaTag = (pro, content) =>{
-      document.createElement('meta');
+      var meta = document.createElement('meta');
       meta.setAttribute('property', pro) ;      
       meta.content = content;
       return meta;
